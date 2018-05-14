@@ -1,0 +1,45 @@
+
+
+
+
+
+@keyframes zhuan{
+    0%{
+        transform: rotateY(1080deg);
+    }
+    75%{
+        transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+
+
+
+@keyframes head{
+    0%{
+        visibility: visible;
+        transform: scale(2.5);
+    }
+    75%{
+        transform: scale(2.3);
+    }
+    100%{
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+@keyframes headAfter{
+    0%{
+        visibility: visible;
+        transform: scale(2);
+    }
+    75%{
+        transform: scale(1.8);
+    }
+    100%{
+        visibility: visible;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>first</title>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<script>
+    var main = document.getElementsByClassName('main');
+    var left = document.getElementsByClassName('left');
+    var right = document.getElementsByClassName('right');
+    var content = document.getElementsByClassName('content');
+    window.onload = function(){
+        h = window.innerHeight;
+        w = window.innerWidth;
+        main[0].style.height = h + 'px';
+        left[0].style.height = h + 'px';
+        content[0].style.height = h + 'px';
+    }
+</script>
+<body>
+    <div class="main">
+        <div class="left"></div>
+        <div class="content">
+            <div class="content-main">
+                <div class="tan">
+                    <div class="tan-top">
+                        <div class="head"><span>cur</span></div>
+                    </div>
+                    <div class="tan-down"></div>
+                </div>
+                <div class="xing">
+                    <div class="tan-top">
+                        <div class="head"><span>luo</span></div>
+                    </div>
+                    <div class="tan-down"></div>
+                </div>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
